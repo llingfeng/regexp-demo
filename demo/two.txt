@@ -1,0 +1,18 @@
+匹配首尾有特征字符串
+
+去掉http协议的jpg文件的协议头:http:(\/\/.+\.jpg)  $1
+.代表任意字符，+代表至少包含一个字符，（）代表分组，$1代表第1个分组内容
+
+//img.host.com/images/fdsfasdf.jpg
+
+https://img.host.com/images/fdflkjsdf.jpg
+
+http://img.host.com/images/klasjdf.png
+
+https://img.host.com/images/ljsflkjs.png
+
+//img.host.com/images/jklajsdklf.jpg
+
+https://img.host.com/images/klajjaksdjf.png
+
+//img.host.com/images/jlksajdflk.jpg

@@ -1,0 +1,15 @@
+匹配字符串
+is替换为IS：
+\bis\b(\b代表单词边界word boundary)
+
+He is a good bod.
+
+This is a test.
+
+Where are you?
+
+Display is also a noun.
+
+isn't it?
+
+What is your name?
